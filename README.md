@@ -3,11 +3,11 @@
 CopyrightSearch is a fine-tuned small language model designed to identify copyright statements, authors, and contributions in source C and header files.
 
 ## Dataset Overview
-- **Total source files (.c / .h):** 260,013
+- **Total source files (.c / .h):** 250.505
 - **Training Process:**
-  1. **First phase:** Training with 48,201 samples
-  2. **Second phase:** Expanding to 150,000 samples
-  3. **Final phase:** Training with the full dataset (260,013 samples)
+  1. **First phase:** Training with 48.201 samples
+  2. **Second phase:** Expanding to 150.000 samples
+  3. **Final phase:** Training with the full dataset (250.505 samples)
 
 ## Retraining Strategy
 - The model will be iteratively retrained with increasing dataset sizes to improve accuracy and generalization.
@@ -22,3 +22,6 @@ This project follows an open-source approach. Ensure compliance with relevant li
 
 ---
 For any questions or contributions, feel free to reach out!# CopyrightSearch
+
+
+on APPEND_DATA.JSON there are 9508 files without comments search(' "comments": "" ')

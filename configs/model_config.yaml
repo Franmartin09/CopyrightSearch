@@ -1,0 +1,7 @@
+model:
+  name: "your-base-model"  # e.g., "microsoft/phi-2" or other base model
+  max_length: 2048
+  padding_side: "right"
+  pad_token_id: 0
+  device: "cuda"  # or "cpu"
+  dtype: "float16"  # or "float32", "bfloat16"

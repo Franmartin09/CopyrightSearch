@@ -1,0 +1,7 @@
+logging:
+  log_dir: "logs"
+  project_name: "copyright-sft"
+  run_name: "run-1"
+  wandb_enabled: true  # if using Weights & Biases
+  checkpoint_dir: "checkpoints"
+  save_total_limit: 3  # number of checkpoints to keep

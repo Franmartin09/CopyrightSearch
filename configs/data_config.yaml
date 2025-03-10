@@ -1,0 +1,9 @@
+dataset:
+  train_path: "../data/processed/train.jsonl"
+  eval_path: "../data/processed/eval.jsonl"
+  columns:
+    input_text: "prompt"
+    target_text: "completion"
+  max_samples: 100000
+  validation_split: 0.1
+  shuffle_seed: 42

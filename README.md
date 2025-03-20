@@ -3,6 +3,8 @@
 CopyrightSearch is a fine-tuned small language model designed to identify copyright statements, authors, and contributions in source C and header files.
 
 ## Project Overview
+
+```
 sft_project/
 │── data/
 │   │── raw/                # Datos sin procesar (descargados de GitHub o local)
@@ -34,7 +36,7 @@ sft_project/
 │── requirements.txt        # Dependencias del proyecto
 │── .gitignore              # Archivos a ignorar en Git
 │── .env                    # Archivo de entorno para credenciales
-
+```
 
 ## Dataset Overview
 - **Total source files (.c / .h):** 250.505
